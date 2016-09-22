@@ -220,7 +220,7 @@
         <column id="2">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%Author:1|Editor:2%, }{&lt;i&gt;%Title%&lt;/i&gt;{, %Edition:o% ed.}}{, %Editor:2%}.{ %City|StateProvince|CountryRegion%}{, %StateProvince|CountryRegion%}{, %CountryRegion%}{: %Publisher%}{,{ %Month:s%} %Year%}{, wol. %Volume%}{, %Comments%}.{ [Online]. %URL:l%}{ (data dostępu: %DayAccessed% %MonthAccessed% %YearAccessed%)}</format>
+          <format>{%Author:1|Editor:2%, }{&lt;i&gt;%Title%&lt;/i&gt;{, %Edition:o% ed.}}{, %Editor:2%}{ %City|StateProvince|CountryRegion%}{, %StateProvince|CountryRegion%}{, %CountryRegion%}{: %Publisher%}{,{ %Month:s%} %Year%}{, wol. %Volume%}{, %Comments%}.{ [Online]. %URL:l%}{ (data dostępu: %DayAccessed% %MonthAccessed% %YearAccessed%)}</format>
         </column>
         <sortkey></sortkey>
       </source>
@@ -233,7 +233,7 @@
         <column id="2">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%Author:1|BookAuthor:1|Editor:2%, }{{"%Title%," in }&lt;i&gt;%BookTitle%&lt;/i&gt;{, %Edition:o% ed.}}{, %Editor:2%}.{ %City|StateProvince|CountryRegion%}{, %StateProvince|CountryRegion%}{, %CountryRegion%}{: %Publisher%}{,{ %Month:s%} %Year%}{, wol. %Volume%}{, ch. %ChapterNumber%}{, %Pages:p. :s. %}{, %Comments%}.{ [Online]. %URL:l%}{ (data dostępu: %DayAccessed% %MonthAccessed% %YearAccessed%)}</format>
+          <format>{%Author:1|BookAuthor:1|Editor:2%, }{{"%Title%," w }&lt;i&gt;%BookTitle%&lt;/i&gt;{, %Edition:o% ed.}}{, %Editor:2%}{ %City|StateProvince|CountryRegion%}{, %StateProvince|CountryRegion%}{, %CountryRegion%}{: %Publisher%}{,{ %Month:s%} %Year%}{, wol. %Volume%}{, ch. %ChapterNumber%}{, %Pages:p. :s. %}{, %Comments%}.{ [Online]. %URL:l%}{ (data dostępu: %DayAccessed% %MonthAccessed% %YearAccessed%)}</format>
         </column>
         <sortkey></sortkey>
       </source>
@@ -311,7 +311,7 @@
         <column id="2">
           <halign>left</halign>
           <valign>top</valign>
-          <format>{%Author:1%,}{(%Year%{, %Month:s%})}{ %InternetSiteTitle|Title%}{ [Online]. %URL:l%}{ (data dostępu: %DayAccessed% %MonthAccessed% %YearAccessed%)}</format>
+          <format>{%Author:1%,}{ (%Year%{, %Month:s%})}{ %InternetSiteTitle|Title%}{ [Online]. %URL:l%}{ (data dostępu: %DayAccessed% %MonthAccessed% %YearAccessed%)}</format>
         </column>
         <sortkey></sortkey>
       </source>
